@@ -28,24 +28,80 @@ header {
 
  .cuadro1 .img {
 
-
+    display: flex;
     width: 100%;
-    min: height 350px;
-
+    justify-content: center;
+    
 }
 
 .cuadro1 {
-    background: blue;
-    width: 400px;
-    height: 300px;
-    margin: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    min-height: 450px;
+    margin: 50px 0px 50px 0px;
+    background: white;
+
+    
+    
+}
+
+.cuadro1 .img img {
+
+    max-width: 100%;
+
 
 }
 
-#home .cuadro1 .C{
+
+.cuadro1 .C {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: blue;
+
+}
+
+
+.c1{
+    
+    width:50%;
+    background: white;
+    padding: 10px;
+  
+}
+
+
+.c2 {
+
+    width:50%;
+    background: white;
+    padding: 10px;
+    text-align: end;   
+
+}
+
+.c1 p {
+  
+    font-weight: bold;
+
+}
+
+.c2 p {
+
+    opacity: 60%;
+
+}
+
+
+.Cpie {
 
     width: 100%;
-    height: 40px;
-    background-color: red;
+    background: white;
+    padding: 10px 10px 10px 20px;
+
 
 }
+
