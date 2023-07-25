@@ -1,0 +1,20 @@
+
+
+nav {
+
+justify-content: space-between;
+
+}
+
+.marco {
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#meme {
+
+background-color: black;
+
+}
